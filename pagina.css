@@ -1,0 +1,61 @@
+.menu {
+    background-color: rgba(0, 0, 0, 0.788);
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.texto {
+    display: block;
+
+    h1 {
+        font-family: "Poppins";
+        font-weight: 700;
+        font-size: 3rem;
+    }
+
+    p {
+        font-family: "Madefor-Text";
+    }
+}
+
+.logo img{
+    width: 6%;
+}
+
+#datos {
+    font-size: 0.9rem;
+}
+
+@media screen and (max-width:1100px) {
+    .texto h1 {
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .texto h1 {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .links {
+        background-color: rgba(0, 0, 0, 0.788);
+        margin-bottom: 8vi;
+    }
+
+    .texto {
+        padding-left: 4vh;
+        padding-right: 4vh;
+    }
+
+    #datos {
+        padding-top: 8vi;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .texto h1 {
+        font-size: 2rem;
+    }
+}
