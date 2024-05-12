@@ -1,0 +1,53 @@
+
+@media screen and (max-width:800px){
+
+    .primer{
+        align-items: center;
+    }
+    .topnav{
+        a{
+            
+            margin-top: 1vh;
+        }
+    }
+    .title{
+        h1{
+            font-size: 8vh;
+        }
+    }
+}
+
+
+
+@media screen and (max-width:650px){
+    .topnav a{
+        padding: 1.5rem;
+        font-size: 1.5rem;
+        margin-top: 1vh;
+    }
+}
+@media screen and (max-width:450px){
+    .title{
+        h1{
+            font-size: 7.5vh;
+        }
+    }
+    .topnav a{
+        padding: 3vh;
+        margin-top: 1vh;
+        font-size: 1.1rem;
+    }
+}
+@media screen and (max-width:350px){
+    .topnav a{
+        padding: 1vh;
+        font-size: 1rem;
+        
+    }
+}
+ /**/
+
+ .galeria{
+    padding: 4vi;
+
+ }
