@@ -1,0 +1,123 @@
+
+@media screen and (max-width:1100px){
+    .links{
+        position: relative;
+    }
+    .logo{
+        img{
+            width: 12%;
+        }
+    }
+}
+
+@media screen and (max-width:800px){
+    .logo{
+        img{
+            width: 16%;
+        }
+    }
+    .primer{
+        align-items: center;
+    }
+    .topnav{
+        a{
+            
+            margin-top: 1vh;
+        }
+    }
+    .title{
+        h1{
+            font-size: 8vh;
+        }
+    }
+}
+
+
+@media screen and (max-width:650px){
+    logo{
+        position: absolute;
+        display: block;
+
+    }
+    .container_menu{
+        display: block;
+        justify-content: center;
+    }
+    .links{
+        
+        width: 100%;
+        justify-content: center;
+        right: 0;
+        /*display: block;
+        position: absolute;
+        float: none;
+        justify-content: center;
+        align-items: center;*/
+    }
+}
+@media screen and (max-width:650px){
+    .topnav a{
+        padding: 1.5rem;
+        font-size: 1.5rem;
+        margin-top: 1vh;
+    }
+    .column{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container_menu{
+        flex-direction: column;
+    }
+    .logo h1{
+        font-size: 4vh;
+    }
+}
+@media screen and (max-width:450px){
+    .title{
+        h1{
+            font-size: 7.5vh;
+        }
+    }
+    .topnav a{
+        padding: 3vh;
+        margin-top: 1vh;
+        font-size: 1.1rem;
+    }
+    .links{
+        flex-direction: column;
+        
+    }
+
+    .links-sociales{
+        padding-bottom: 20vi;
+    }
+}
+@media screen and (max-width:350px){
+    .topnav a{
+        padding: 1vh;
+        font-size: 1rem;
+        
+    }
+
+    .container-sociales{
+        a, svg{
+            width: 10;
+            height: 10;
+        }
+    }
+}
+ /*Gallery - responsive*/
+ @media only screen and (max-width: 900px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
