@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>PRIMEROS PASOS CON BRACKETS</title>
+        <meta name="description" content="Una guía interactiva de primeros pasos para Brackets.">
+        <link rel="stylesheet" href="estlosMaravilla.css">
+        <style>
+        html {
+    background: #0000;
+    background-image: url(backgrounds-maravillas/Fondo14.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 100vh;
+    background-attachment: fixed
+}
+        </style>
+    </head>
+    <div class="titulo">
+        </div>
+        
+        <h1>Coliseo Romano</h1>
+        <p>
+            IMAGEN XD
+            
+            Creado en tiempos de desesperación, mantuvo unido a un imperio en crisis y le permitio darse un respiro necesario para cambiar el mundo conocido en ese entonces, y despues de su caída, demuestra e impone respeto por su buen diseño.
+        </p>
+
+    <body>
+        
+        
+        
+<h2>Maravilla Moderna</h2>
+
+<button class="accordion">Introducción</button>
+<div class="panel">
+  <p>El Coliseo Romano, también conocido como Anfiteatro Flavio, es uno de los monumentos más icónicos y emblemáticos del mundo antiguo. Ubicado en el corazón de la ciudad de Roma, Italia, este majestuoso anfiteatro es un testimonio perdurable del ingenio arquitectónico, la grandeza cultural y el esplendor del Imperio Romano.
+</p>
+</div>
+
+<button class="accordion">Construcción</button>
+<div class="panel">
+  <p>El Coliseo Romano es un ejemplo magistral de la arquitectura romana, caracterizada por su ingeniería avanzada, su diseño monumental y su uso innovador del hormigón y la piedra. El anfiteatro tiene una forma elíptica y mide aproximadamente 189 metros de largo, 156 metros de ancho y 48 metros de altura en su punto más alto.
+La estructura del Coliseo está compuesta por varios niveles de arcos y pasillos, que formaban una red compleja de entradas y salidas para el público. Se estima que el Coliseo tenía una capacidad para albergar entre 50.000 y 80.000 espectadores, lo que lo convertía en uno de los mayores anfiteatros del mundo antiguo.
+La fachada exterior del Coliseo estaba adornada con columnas, arcadas y esculturas, que reflejaban la riqueza y el poder del Imperio Romano. En su interior, el anfiteatro estaba dividido en varias secciones, incluyendo la arena central, donde tenían lugar los combates de gladiadores, y las gradas, donde se sentaba el público.
+</p>
+</div>
+
+<button class="accordion">El Anfiteatro mas grande del mundo antiguo</button>
+<div class="panel">
+  <p>El Coliseo Romano fue construido durante el reinado de los emperadores Flavios, en el siglo I d.C. Su construcción comenzó bajo el emperador Vespasiano en el año 70 d.C. y se completó en el año 80 d.C. durante el reinado de su hijo, Tito. Se erigió en el sitio de un antiguo lago artificial del Palacio Dorado del emperador Nerón, que fue demolido para dar paso al nuevo anfiteatro.
+El Coliseo fue concebido como un espacio para espectáculos públicos, como combates de gladiadores, caza de animales salvajes, ejecuciones públicas y representaciones teatrales. Estos eventos atraían a grandes multitudes de romanos de todas las clases sociales, y se consideraban una forma de entretenimiento y control social por parte del gobierno imperial.
+Durante los siglos siguientes, el Coliseo continuó siendo utilizado para diversos propósitos, pero con el tiempo cayó en desuso y fue abandonado. A lo largo de los siglos, sufrió daños por terremotos, saqueos y el paso del tiempo, pero su estructura básica permaneció en pie como un recordatorio de la grandeza de la antigua Roma.
+</p>
+</div>
+        
+<button class="accordion">Importancia cultural </button>
+<div class="panel">
+  <p>El Coliseo Romano no solo era un lugar de entretenimiento y espectáculo, sino también un símbolo del poderío y la grandeza del Imperio Romano. Su construcción fue financiada con los despojos de la guerra y el trabajo de miles de esclavos y prisioneros de guerra, lo que subrayaba la autoridad y la supremacía de Roma sobre sus conquistas.
+El Coliseo también tenía un significado simbólico como un monumento a la civilización romana y sus valores de fuerza, disciplina y orden. Era un lugar donde los romanos podían reunirse para celebrar su identidad colectiva, disfrutar de la competencia y afirmar su dominio sobre el mundo conocido.
+A lo largo de los siglos, el Coliseo Romano ha sido testigo de numerosos eventos históricos y transformaciones culturales. Desde la caída del Imperio Romano hasta la era moderna, ha sido objeto de fascinación y admiración por parte de viajeros, artistas, arqueólogos y eruditos de todo el mundo.
+En la actualidad, el Coliseo Romano es uno de los principales destinos turísticos de Roma y una atracción emblemática de la antigua ciudad. Cada año, millones de personas visitan el Coliseo para admirar su grandeza arquitectónica, aprender sobre su historia y sumergirse en el legado de la antigua Roma.</p>
+</div>
+        
+        <script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+    </body>
+</html>

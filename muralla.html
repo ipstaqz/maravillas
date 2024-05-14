@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>PRIMEROS PASOS CON BRACKETS</title>
+        <meta name="description" content="Una guía interactiva de primeros pasos para Brackets.">
+        <link rel="stylesheet" href="estlosMaravilla.css">
+        <style>
+        html {
+    background: #0000;
+    background-image: url(backgrounds-maravillas/Fondo11.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 100vh;
+    background-attachment: fixed
+}
+        </style>
+    </head>
+    <div class="titulo">
+        </div>
+        
+        <h1>Gran Muralla China</h1>
+
+        <p>
+            IMAGEN XD
+            
+            Alzada en tiempos peligrosos, salvo a su pueblo del saqueo y recorrio una extensa distancia que divide dos culturas, dos mundos y que simplemente recuerda las hazañas que el trabajo en equipo con dedicación y esfuerzo puede lograr en poco tiempo.
+
+        </p>
+
+    <body>
+        
+        
+        
+<h2>Maravilla Moderna</h2>
+
+<button class="accordion">Introducción</button>
+<div class="panel">
+  <p>La Gran Muralla China, una maravilla arquitectónica que se extiende majestuosamente a través del paisaje montañoso del norte de China, es una obra maestra que ha fascinado a la humanidad durante siglos. Con una historia que se remonta a más de dos mil años, este impresionante monumento es mucho más que una simple barrera física; es un símbolo de la grandeza, la ingeniería y la resistencia del pueblo chino.</p>
+</div>
+
+<button class="accordion">Construcción</button>
+<div class="panel">
+  <p>La construcción de la Gran Muralla China comenzó durante la dinastía Qin (221-206 a.C.), bajo el mandato del emperador Qin Shi Huang. La muralla originalmente estaba compuesta por varias secciones independientes, construidas por diferentes estados feudales para protegerse de las invasiones de los pueblos nómadas del norte. Sin embargo, Qin Shi Huang ordenó la unificación y expansión de estas secciones en una sola estructura continua.
+La construcción de la muralla implicó enormes desafíos técnicos y humanos. Se estima que millones de trabajadores, incluidos soldados, campesinos y prisioneros, participaron en su construcción a lo largo de varias dinastías chinas. Se utilizaron una variedad de materiales, como piedra, ladrillo, tierra y madera, dependiendo de la disponibilidad local y las condiciones geográficas.
+La Gran Muralla China no es una estructura uniforme; consta de diferentes secciones construidas en diferentes momentos históricos y con distintos propósitos. Las secciones principales están ubicadas en el norte de China, a lo largo de la frontera con Mongolia y otras regiones del norte.
+El diseño de la muralla se adaptó a las condiciones geográficas y estratégicas. En áreas montañosas, la muralla se construyó siguiendo las crestas de las montañas, aprovechando la topografía natural para reforzar su defensa. En llanuras y valles, se construyeron fosos y trincheras adicionales para dificultar el avance de los invasores.
+La muralla no solo consistía en paredes defensivas; también incluía torres de vigilancia, bastiones, puertas fortificadas y otros elementos defensivos. Estas estructuras permitían a los soldados defender la muralla y comunicarse rápidamente a lo largo de su extensión, garantizando una respuesta efectiva a cualquier amenaza.
+</p>
+</div>
+
+<button class="accordion">Divisor de dos culturas
+</button>
+<div class="panel">
+  <p>El propósito principal de la Gran Muralla China era defender el imperio chino de las incursiones de los nómadas del norte, como los mongoles y los xiongnu. Sin embargo, su importancia trascendió su función defensiva. La muralla también desempeñó un papel crucial en el control del comercio, la migración y la comunicación a lo largo de la frontera norte de China.
+Además de su función práctica, la Gran Muralla China también adquirió un profundo significado simbólico y cultural. Durante siglos, ha sido un símbolo de la resistencia china frente a las invasiones extranjeras y de la determinación del pueblo chino para proteger su tierra y su identidad cultural. La muralla también ha inspirado numerosas obras de arte, literatura y música, convirtiéndose en un emblema de la civilización china ante el mundo.
+</p>
+</div>
+        
+<button class="accordion">Importancia cultural </button>
+<div class="panel">
+  <p>A lo largo de los siglos, la Gran Muralla China ha sufrido daños debido a la erosión natural, la actividad humana y los conflictos armados. Sin embargo, numerosos esfuerzos de conservación han sido realizados para preservar este patrimonio mundial. Organizaciones gubernamentales y no gubernamentales trabajan en la restauración y mantenimiento de las secciones de la muralla más deterioradas, utilizando técnicas tradicionales y modernas.
+La Gran Muralla China es mucho más que una simple reliquia del pasado; es un monumento vivo que sigue desempeñando un papel importante en la identidad y la cultura china. Su imponente presencia nos recuerda la capacidad humana para llevar a cabo grandes hazañas de ingeniería y resistencia. También nos enseña lecciones sobre la importancia de proteger y preservar nuestro patrimonio cultural para las generaciones futuras.
+</p>
+</div>
+        
+        <script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+    </body>
+</html>

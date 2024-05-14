@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>PRIMEROS PASOS CON BRACKETS</title>
+        <meta name="description" content="Una guía interactiva de primeros pasos para Brackets.">
+        <link rel="stylesheet" href="estlosMaravilla.css">
+        <style>
+        html {
+    background: #0000;
+    background-image: url(backgrounds-maravillas/Fondo12.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 100vh;
+    background-attachment: fixed
+}
+        </style>
+    </head>
+    <div class="titulo">
+        </div>
+        
+        <h1>Ciudad de Petra</h1>
+        <p>
+            IMAGEN XD
+        </p>
+
+    <body>
+        
+        
+        
+<h2>Maravilla Moderna</h2>
+
+<button class="accordion">Introducción
+</button>
+<div class="panel">
+  <p>Petra, la "ciudad rosa", es una maravilla arqueológica situada en el desierto de Jordania. Conocida por sus imponentes tesoros esculpidos en roca y su rica historia, Petra es uno de los destinos más fascinantes del mundo.
+Los orígenes exactos de Petra se remontan a la antigüedad, posiblemente a la Edad del Hierro, pero su apogeo ocurrió durante el período helenístico y romano. Fundada por los nabateos, un antiguo pueblo árabe, Petra se convirtió en un importante centro comercial y cultural en la región. Su ubicación estratégica en las rutas comerciales entre Arabia, Egipto y Siria contribuyó a su prosperidad y crecimiento.
+</p>
+</div>
+
+<button class="accordion">Construcción</button>
+<div class="panel">
+  <p>Lo más notable de Petra es su impresionante arquitectura tallada en las paredes de roca del desfiladero que conduce a la ciudad. La fachada más famosa es el Tesoro (Al-Khazneh), una estructura monumental esculpida en la roca que sirvió como tumba o santuario. Con su intrincada decoración y su impresionante tamaño, el Tesoro es un ejemplo asombroso de la habilidad y la creatividad de los nabateos.
+Además del Tesoro, Petra alberga numerosas estructuras talladas en la roca, como tumbas, templos, teatros y viviendas. La ciudad también cuenta con un sofisticado sistema de canales y cisternas que permitía el suministro de agua a sus habitantes y visitantes, una hazaña impresionante de ingeniería hidráulica en un entorno desértico.
+</p>
+</div>
+
+<button class="accordion">De un punto vital del comercio al abandono</button>
+<div class="panel">
+  <p>Durante su apogeo, Petra fue un importante centro comercial y cultural en la región del Medio Oriente. Los nabateos controlaban las rutas comerciales de incienso, especias y otros productos de lujo, lo que les proporcionaba riqueza y poder. La ciudad era conocida por su prosperidad y su ambiente cosmopolita, con influencias culturales de diversas partes del mundo antiguo.
+Sin embargo, en el siglo III d.C., el declive de las rutas comerciales y los cambios políticos en la región llevaron al declive de Petra. La ciudad fue abandonada gradualmente y quedó en gran parte olvidada durante siglos, hasta que fue redescubierta por el explorador suizo Johann Ludwig Burckhardt en el siglo XIX.
+</p>
+</div>
+        
+<button class="accordion">Importancia cultural </button>
+<div class="panel">
+  <p>Desde su redescubrimiento, Petra ha capturado la imaginación de viajeros, arqueólogos y amantes de la historia de todo el mundo. Designada como Patrimonio Mundial de la UNESCO en 1985, la ciudad atrae a cientos de miles de visitantes cada año, ansiosos por explorar sus fascinantes ruinas y sumergirse en su rica historia.
+Además de su importancia cultural, Petra también es un motor económico para Jordania, generando ingresos significativos del turismo. El gobierno jordano ha implementado medidas para proteger y preservar el sitio, incluyendo la limitación del acceso y la promoción de prácticas sostenibles de turismo.
+Petra es mucho más que una ciudad antigua; es un testamento de la creatividad humana, la habilidad técnica y la capacidad de adaptación en un entorno desafiante. Su impresionante arquitectura y su rica historia nos recuerdan la grandeza de las civilizaciones pasadas y la importancia de preservar nuestro patrimonio cultural compartido.
+</p>
+</div>
+        
+        <script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+    </body>
+</html>

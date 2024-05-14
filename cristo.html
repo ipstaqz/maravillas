@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>PRIMEROS PASOS CON BRACKETS</title>
+        <meta name="description" content="Una guía interactiva de primeros pasos para Brackets.">
+        <link rel="stylesheet" href="estlosMaravilla.css">
+        <style>
+        html {
+    background: #0000;
+    background-image: url(backgrounds-maravillas/Fondo9.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 100vh;
+    background-attachment: fixed
+}
+        </style>
+    </head>
+    <div class="titulo">
+        </div>
+        
+        <h1>Estatua de Cristo</h1>
+        
+        
+
+        <p>
+            IMAGEN XD
+            
+A la cima de una montaña cuida y vela por el bien de toda la población que le adora asi como tambien demuestra su afecto por ellos extendiendo sus brazos brindando todo su amor y cariño a su pueblo.
+
+        </p>
+
+    <body>
+<h2>Maravilla Moderna</h2>
+
+<button class="accordion">Introducción</button>
+<div class="panel">
+  <p>La Estatua de Cristo Redentor, ubicada en la cima del Cerro del Corcovado en Río de Janeiro, Brasil, es una de las imágenes más reconocibles y veneradas en todo el mundo. Esta majestuosa estatua de Jesucristo, con los brazos extendidos, ha sido durante mucho tiempo un símbolo de fe, esperanza y amor para millones de personas en todo el mundo.
+</p>
+</div>
+
+<button class="accordion">Construcción</button>
+<div class="panel">
+  <p>La Estatua de Cristo Redentor tiene una altura impresionante de 30 metros (98 pies) y se alza sobre un pedestal de 8 metros (26 pies), lo que la convierte en una de las estatuas de Cristo más grandes del mundo. Está hecha de concreto armado y revestida con piedra sabão, una especie de piedra de jabón que le da su característico color blanco.
+La estatua está ubicada en la cima del Cerro del Corcovado, a una altitud de 710 metros (2,330 pies) sobre el nivel del mar, lo que le otorga una vista impresionante de la ciudad de Río de Janeiro y su famosa bahía. Los brazos de la estatua se extienden hacia los lados en un gesto de bienvenida y bendición, simbolizando el amor y la misericordia de Cristo hacia toda la humanidad.
+</p>
+</div>
+
+<button class="accordion">El Catolicismo y Brasil
+</button>
+<div class="panel">
+  <p>La idea de erigir una estatua de Cristo en Río de Janeiro surgió a principios del siglo XX, cuando se celebraba el centenario de la independencia de Brasil en 1922. La idea era construir una estatua monumental que simbolizara la fe cristiana y la unión del pueblo brasileño.
+El proyecto fue propuesto por el arquitecto brasileño Heitor da Silva Costa, quien diseñó la estatua en colaboración con el escultor francés Paul Landowski. La construcción de la estatua comenzó en 1926 y se completó en 1931, convirtiéndose rápidamente en uno de los monumentos más emblemáticos de Brasil y del mundo.
+</p>
+</div>
+        
+<button class="accordion">Importancia cultural </button>
+<div class="panel">
+  <p>Es un símbolo de fe, esperanza y amor para millones de personas en todo el mundo. Para los brasileños, la estatua representa la identidad nacional y la fe cristiana que ha desempeñado un papel fundamental en la historia y la cultura del país.
+Además, la estatua también es un símbolo de unidad y fraternidad, ya que acoge a personas de todas las razas, religiones y culturas bajo su protección. Desde su inauguración, ha sido un destino de peregrinación para millones de personas que buscan inspiración espiritual y consuelo en tiempos de dificultad.
+la Estatua de Cristo Redentor ha resistido el paso del tiempo y los elementos, convirtiéndose en un monumento perdurable de la fe y la cultura brasileña. Su impacto en la sociedad y la historia de Brasil es innegable, y su legado perdura como un recordatorio de la importancia de la fe y el amor en el mundo moderno.
+</p>
+</div>
+        
+        <script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+    </body>
+</html>

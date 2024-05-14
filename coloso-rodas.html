@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>PRIMEROS PASOS CON BRACKETS</title>
+        <meta name="description" content="Una guía interactiva de primeros pasos para Brackets.">
+        <link rel="stylesheet" href="estlosMaravilla.css">
+        <style>
+        html {
+    background: #0000;
+    background-image: url(backgrounds-maravillas/Fondo7.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 100vh;
+    background-attachment: fixed
+}
+        </style>
+    </head>
+    <div class="titulo">
+        </div>
+        
+        <h1>Coloso de Rodas</h1>
+        <p>
+            IMAGEN XD
+            Cuida la entrada a la isla con su mismo nombre, observa y cuida los barcos al horizonte. Aquel que desea entrar a sus tierras él se lo debe permitir y en descanso se encuentra para moverse de su lugar en caso de su hogar amenazado se encuentra.
+        </p>
+
+    <body>
+        
+        
+        
+<h2>Maravilla Antigua</h2>
+
+<button class="accordion">Introducción
+</button>
+<div class="panel">
+  <p>El Coloso de Rodas, una de las Siete Maravillas del Mundo Antiguo, fue una imponente estatua de bronce que una vez se alzó orgullosa en la isla de Rodas, en el mar Egeo. Esta impresionante obra de arte y arquitectura no solo era un símbolo de la grandeza de la antigua Grecia, sino también una maravilla técnica que dejaba boquiabiertos a los visitantes de todo el mundo. 
+Cuando la ciudad-estado de Rodas celebró su victoria sobre el rey Demetrio Poliorcetes de Macedonia, quien había intentado conquistar la isla. Después de la batalla, los rodios decidieron construir una monumental estatua en honor a su dios del sol, Helios, como agradecimiento por su protección divina durante el asedio.
+</p>
+</div>
+
+<button class="accordion">Construcción</button>
+<div class="panel">
+  <p>La construcción del Coloso de Rodas fue encargada al escultor cario Crésilas y al ingeniero Lindos, quienes idearon un diseño audaz y ambicioso para la estatua. Esta representaría a Helios, el dios del sol, de pie sobre una base de mármol en el puerto de Rodas, con una altura estimada de entre 30 y 33 metros.
+La estatua se esculpió en bronce, utilizando técnicas avanzadas de fundición y modelado que eran revolucionarias para la época. Se dice que la estructura estaba rellena de bloques de piedra y hierro para darle estabilidad, y estaba recubierta con placas de bronce pulido que brillaban bajo el sol.
+</p>
+</div>
+
+<button class="accordion">La caída del guardián de Rodas</button>
+<div class="panel">
+  <p>Después de solo 56 años de pie, la estatua fue destruida por un terremoto masivo que sacudió la isla de Rodas en el año 226 a.C.
+Se dice que el Coloso se derrumbó en pedazos, cayendo al suelo y quedando en ruinas. Aunque algunos fragmentos de la estatua fueron recogidos y reutilizados en otras construcciones, la mayor parte de su estructura quedó abandonada en el puerto de Rodas, donde se convirtió en un símbolo de la fragilidad de la gloria humana.
+</p>
+</div>
+        
+<button class="accordion">Importancia cultural </button>
+<div class="panel">
+  <p>El Coloso de Rodas no solo era una obra de arte impresionante, sino también un símbolo de la grandeza y la fortaleza de la ciudad de Rodas. Su presencia dominaba el puerto de la isla, recibiendo a los barcos y marineros que llegaban de todo el Mediterráneo con asombro y admiración.
+La estatua también era un importante centro religioso y cultural, donde los ciudadanos de Rodas podían rendir homenaje a su dios del sol y participar en ceremonias religiosas y festivales en su honor. Además, el Coloso se convirtió en un destino turístico popular, atrayendo a visitantes de todo el mundo antiguo que querían contemplar su magnificencia.
+el Coloso de Rodas sigue siendo una de las más grandes maravillas del mundo antiguo. Su diseño innovador, su magnífica escala y su significado cultural y religioso lo convierten en un testimonio perdurable de la capacidad del ser humano para crear belleza y grandeza en el mundo que lo rodea.
+Además, el Coloso también ha inspirado a numerosos artistas, escritores y pensadores a lo largo de los siglos. Su imagen ha sido recreada en pinturas, esculturas y obras literarias, y su influencia se extiende hasta nuestros días en el arte y la cultura moderna.
+En última instancia, el Coloso de Rodas sigue siendo un monumento emblemático de la grandeza y la excelencia artística de la civilización antigua.
+</p>
+</div>
+        
+        <script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+    </body>
+</html>
