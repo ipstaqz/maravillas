@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>PRIMEROS PASOS CON BRACKETS</title>
+        <meta name="description" content="Una guía interactiva de primeros pasos para Brackets.">
+        <link rel="stylesheet" href="estlosMaravilla.css">
+        <style>
+        html {
+    background: #0000;
+    background-image: url(backgrounds-maravillas/Fondo13.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 100vh;
+    background-attachment: fixed
+}
+        </style>
+    </head>
+    <div class="titulo">
+        </div>
+        
+        <h1>Taj Mahal</h1>
+        <p>
+            IMAGEN XD
+        </p>
+
+    <body>
+        
+        
+        
+<h2>Maravilla Moderna</h2>
+
+<button class="accordion">Introducción</button>
+<div class="panel">
+  <p>El Taj Mahal, una joya arquitectónica ubicada en la ciudad de Agra, en el estado indio de Uttar Pradesh, es una de las maravillas más emblemáticas del mundo. Este majestuoso mausoleo de mármol blanco, construido en el siglo XVII, es un símbolo del amor eterno y una obra maestra del arte islámico-mogol. En este texto, exploraremos la historia, la arquitectura, el significado cultural y la importancia turística del Taj Mahal.
+El Taj Mahal fue encargado por el emperador mogol Shah Jahan en memoria de su esposa favorita, Mumtaz Mahal, quien murió al dar a luz a su decimocuarto hijo en 1631. Shah Jahan quedó devastado por la pérdida de su amada esposa y decidió construir un monumento que inmortalizara su amor y su memoria.
+</p>
+</div>
+
+<button class="accordion">Construcción
+</button>
+<div class="panel">
+  <p>El Taj Mahal es un ejemplo supremo de la arquitectura mogol, que combina elementos de las tradiciones islámica, persa, india y otomana. El mausoleo principal está construido en mármol blanco y está rodeado por un exquisito jardín geométrico, piscinas reflejantes y una serie de edificios secundarios simétricos.
+La construcción del monumento tomó aproximadamente 22 años y se completó en 1653, empleando miles de trabajadores y utilizando materiales de todo el mundo, incluido el mármol blanco de Rajasthan y piedras preciosas importadas de lugares distantes.
+La característica más distintiva del Taj Mahal es su imponente cúpula central, que se eleva a una altura de 73 metros sobre el nivel del suelo. Esta cúpula está rodeada por cuatro minaretes angulares, cada uno de los cuales mide más de 40 metros de altura. La simetría y la precisión geométrica son rasgos destacados de la arquitectura del Taj Mahal, lo que le confiere una sensación de equilibrio y armonía.
+El mausoleo en sí contiene las tumbas de Mumtaz Mahal y Shah Jahan, colocadas en una cámara subterránea en el centro del edificio. Las paredes interiores del Taj Mahal están decoradas con intrincados diseños de incrustaciones de piedras preciosas, inscripciones coránicas y motivos florales, todos elaboradamente tallados a mano por hábiles artesanos.
+</p>
+</div>
+
+<button class="accordion">Belleza y Beneficio
+</button>
+<div class="panel">
+  <p>El Taj Mahal es uno de los destinos turísticos más populares del mundo, atrayendo a millones de visitantes cada año. Su belleza atemporal y su rica historia lo convierten en un lugar imprescindible para cualquier viajero que visite la India. Además, el Taj Mahal ha sido reconocido como Patrimonio Mundial de la UNESCO desde 1983, lo que ha contribuido aún más a su prestigio y su atractivo turístico.
+La industria turística en torno al Taj Mahal ha generado importantes beneficios económicos para la región de Agra y para toda la India. Miles de personas dependen del turismo para su sustento, ya sea trabajando en hoteles, restaurantes, tiendas de recuerdos o como guías turísticos. Además, el gobierno indio ha implementado medidas para proteger y preservar el monumento, incluyendo restricciones de acceso y proyectos de conservación.
+</p>
+</div>
+        
+<button class="accordion">//Importancia cultural 
+button>
+<div class="panel">
+  <p>El Taj Mahal es mucho más que un simple mausoleo; es un símbolo de amor, belleza y devoción que trasciende fronteras culturales y religiosas. Para los hindúes, musulmanes y personas de todas las religiones, el Taj Mahal representa la grandeza del amor humano y la aspiración hacia la perfección espiritual.
+Desde su finalización, el Taj Mahal ha sido venerado como un hito cultural y religioso en la India y en todo el mundo. Es un lugar de peregrinación para millones de personas que vienen a admirar su belleza y rendir homenaje a la memoria de Shah Jahan y Mumtaz Mahal.
+p>
+</div>
+        
+        <script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+    </body>
+</html>

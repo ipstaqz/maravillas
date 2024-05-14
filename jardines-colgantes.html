@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>PRIMEROS PASOS CON BRACKETS</title>
+        <meta name="description" content="Una guía interactiva de primeros pasos para Brackets.">
+        <link rel="stylesheet" href="estlosMaravilla.css">
+        <style>
+        html {
+    background: #0000;
+    background-image: url(backgrounds-maravillas/Fondo3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 100vh;
+    background-attachment: fixed
+}
+        </style>
+    </head>
+    <div class="titulo"></div>
+        
+        <h1>La Jardín de Babilonia</h1>
+        <p>
+            IMAGEN XD
+        </p>
+
+    <body>
+        
+        
+        
+<h2>Maravilla Antigua</h2>
+
+<button class="accordion">Introduccion</button>
+<div class="panel">
+  <p>De la muestra de amor de amor de un rey, nace esta bella obra con un impresionante sistema de riego en una zona árida donde sería impensable ver vida tan verde como la que se conoció en los jardines colgantes de babilonia.</p>
+</div>
+
+<button class="accordion">Construcción</button>
+<div class="panel">
+  <p>Los Jardines Colgantes fueron una serie de terrazas ajardinadas, dispuestas en varios niveles y sostenidas por columnas de ladrillo y arcilla. Se cree que fueron construidos alrededor del siglo VI a.C., durante el reinado de Nabucodonosor II, en la antigua ciudad de Babilonia, que se encuentra en la actual Iraq. 
+El diseño de los jardines era verdaderamente único para su tiempo. Consistían en una serie de terrazas elevadas, una sobre otra, que sostenían una variedad de plantas, árboles y flores exóticas. Se cree que estas terrazas estaban soportadas por una intrincada red de arcos y columnas, lo que permitía que el agua fluyera desde la parte superior hasta la base, creando una cascada que regaba los jardines.
+</p>
+</div>
+
+<button class="accordion">La maravilla inexistente?</button>
+<div class="panel">
+  <p>Se dice que los construyó para su esposa, Amytis de Media, quien extrañaba los exuberantes paisajes montañosos de su tierra natal. Esta dedicación personal añade una capa de romanticismo a la historia de los jardines y ha contribuido a su fama y reconocimiento.
+La ubicación exacta de los Jardines Colgantes sigue siendo un tema de debate entre los historiadores y arqueólogos. Algunas teorías sugieren que estaban ubicados en la ciudad de Babilonia, cerca del río Éufrates, mientras que otras teorías apuntan a la cercana ciudad de Nínive como su posible ubicación. Sin embargo, no se ha encontrado evidencia arqueológica sólida que confirme su existencia y ubicación exacta
+</p>
+</div>
+        
+<button class="accordion">Importancia cultural</button>
+<div class="panel">
+  <p>En la cultura babilónica, los jardines podrían haber representado una conexión con la naturaleza y un símbolo de poder y lujo para la realeza. Además, su posible construcción como un gesto de amor y dedicación hacia la esposa del rey añade un elemento romántico a su significado cultural.
+Aunque la historia y la existencia de los Jardines Colgantes de Babilonia pueden estar envueltas en el velo de la leyenda y la mitología, su legado perdura como un testimonio de la creatividad humana y la búsqueda de la belleza en medio de la aridez. La incertidumbre que rodea a estos jardines solo agrega al encanto y la intriga que los rodea, asegurando su lugar como una de las maravillas más enigmáticas de la antigüedad.
+Independientemente de su existencia física, los Jardines Colgantes de Babilonia continúan ejerciendo una influencia perdurable en la cultura y el arte. Han aparecido en numerosas obras literarias, pinturas y películas, y su imagen sigue siendo evocadora de un mundo antiguo lleno de esplendor y maravilla.
+En última instancia, ya sea que los Jardines Colgantes hayan sido una realidad concreta o simplemente un mito, su legado perdura como un recordatorio de la capacidad del ser humano para crear belleza y asombro, incluso en los lugares más improbables y difíciles. Su imagen sigue siendo un faro de inspiración para aquellos que sueñan con la grandeza y la belleza en el mundo que los rodea.
+</p>
+</div>
+        
+        <script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+    </body>
+</html>

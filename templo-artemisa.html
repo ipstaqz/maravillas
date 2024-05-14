@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>PRIMEROS PASOS CON BRACKETS</title>
+        <meta name="description" content="Una guía interactiva de primeros pasos para Brackets.">
+        <link rel="stylesheet" href="estlosMaravilla.css">
+        <style>
+        html {
+    background: #0000;
+    background-image: url(backgrounds-maravillas/Fondo5.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 100vh;
+    background-attachment: fixed
+}
+        </style>
+    </head>
+    <div class="titulo">
+        </div>
+        
+        <h1>La Templo de Artemisa
+</h1>
+        <p>
+           IMAGEN XD
+        </p>
+
+    <body>
+        
+        
+        
+<h2>Maravilla Antigua</h2>
+
+<button class="accordion">Introducción </button>
+<div class="panel">
+  <p>El Templo de Artemisa, también conocido como el Artemisión. Fue construido en honor a la diosa griega Artemisa, la deidad de la caza, la fertilidad y la naturaleza, siendo de las más grandes maravillas arquitectónicas y religiosas del mundo antiguo. Situado en la antigua ciudad de Éfeso, en lo que hoy es Turquía, este majestuoso templo dedicado a la diosa Artemisa fue un símbolo de la riqueza, la belleza y la devoción de la civilización griega.</p>
+</div>
+
+<button class="accordion">Construcción
+</button>
+<div class="panel">
+  <p>Una estructura impresionante, con dimensiones monumentales y una ornamentación exquisita. Era aproximadamente cuatro veces más grande que el Partenón de Atenas. Estaba adornado con obras de arte de renombrados escultores griegos.
+La construcción del Templo de Artemisa comenzó alrededor del siglo VI a.C., bajo el patrocinio del rey Creso de Lidia, y tomó aproximadamente 120 años en completarse. Fue diseñado por el arquitecto Quersifrón, y su construcción fue financiada por los reyes, los gobernantes locales y los ciudadanos adinerados de la época.
+El templo era un coloso de mármol y piedra, con 127 columnas jónicas de más de 18 metros de altura, cada una decorada con relieves y esculturas magníficas. Su tamaño y belleza lo convirtieron en una de las estructuras más impresionantes de la antigüedad, atrayendo peregrinos y visitantes de todo el mundo griego.
+</p>
+</div>
+
+<button class="accordion">Su lamentable Final
+</button>
+<div class="panel">
+  <p>A pesar de su magnificencia, el Templo de Artemisa sufrió varios desastres a lo largo de los siglos. Fue incendiado intencionalmente por el héroe Heráclito en el 356 a.C., según la leyenda, el mismo día en que nació Alejandro Magno. Aunque se reconstruyó parcialmente, nunca recuperó su antigua gloria.
+Finalmente, el templo fue destruido por completo por los godos en el siglo III d.C., y sus restos fueron posteriormente saqueados y desmantelados para reutilizar sus materiales en otras construcciones. Hoy en día, solo quedan ruinas dispersas que dan testimonio de su grandeza pasada.
+A pesar de su desaparición física, el Templo de Artemisa sigue siendo recordado como una de las más grandes maravillas del mundo antiguo. Su influencia se extiende hasta nuestros días, inspirando obras de arte, literatura y arquitectura que celebran su belleza y su significado cultural
+</p>
+</div>
+        
+<button class="accordion">Importancia Cultural
+</button>
+<div class="panel">
+  <p>El templo representaba la riqueza y el poder de la ciudad de Éfeso, así como la devoción a Artemisa, una de las deidades más importantes en la mitología griega. Además, el templo también era un símbolo de la habilidad arquitectónica y artística de la época.
+Se construyó para honrar a Artemisa y servir como lugar de culto, pero también se cree que tenía una función económica, ya que atraía a peregrinos y turistas de todo el mundo griego, lo que contribuía a la prosperidad de la ciudad. Sin embargo, también se especula que su construcción pudo haber sido motivada por razones políticas o de prestigio, ya que competir por tener las estructuras más impresionantes era común entre las ciudades griegas de la época.
+Aunque ya no se alza en Éfeso, su legado perdura como un recordatorio de la capacidad del ser humano para crear belleza y grandeza como muestra de su devoción a sus creencias.</p>
+</div>
+        
+        <script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+    </body>
+</html>

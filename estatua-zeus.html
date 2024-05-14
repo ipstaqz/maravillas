@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>PRIMEROS PASOS CON BRACKETS</title>
+        <meta name="description" content="Una guía interactiva de primeros pasos para Brackets.">
+        <link rel="stylesheet" href="estlosMaravilla.css">
+        <style>
+        html {
+    background: #0000;
+    background-image: url(backgrounds-maravillas/Fondo4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 100vh;
+    background-attachment: fixed
+}
+        </style>
+    </head>
+    <div class="titulo"></div>
+        
+        <h1>La Estatua de Zeus</h1>
+        <p>
+            IMAGEN XD
+        </p>
+
+    <body>
+        
+        
+        
+<h2>Maravilla Antigua</h2>
+
+<button class="accordion">Introducción</button>
+<div class="panel">
+  <p>Un regalo o una ofrenda. Dedicada del padre de los cielos, aquel que libro la tierra de los titanes, ahora reposa en su merecido trono observando y escuchando todo desde su posición privilegiada su vista ve hasta donde no se ve. 
+Se erigió una de las más impresionantes y reverenciadas obras de arte de la antigüedad: la Estatua de Zeus, el padre de los dioses en la mitología griega. Esta magnífica escultura, creada por el famoso escultor Fidias, uno de los más renombrados artistas de la Grecia clásica, quien trabajó en ella entre los años 466 y 456 a.C., no solo era una representación del poderoso dios olímpico, sino que también se convirtió en un símbolo de la grandeza y la excelencia artística de la civilización griega.
+</p>
+</div>
+
+<button class="accordion">Construcción
+</button>
+<div class="panel">
+  <p>La creación de la Estatua de Zeus fue encargada por los habitantes de la ciudad de Élide, la región que administraba los juegos olímpicos, como un símbolo de su devoción al dios. El escultor Fidias, conocido por su habilidad y maestría en el arte de la escultura, fue seleccionado para llevar a cabo esta monumental tarea.
+La estatua se esculpió en marfil y oro sobre un armazón de madera y piedra, lo que le daba un aspecto impresionante y majestuoso. Representaba a Zeus sentado en un trono, con una altura aproximada de 12 metros, lo que la convertía en una de las esculturas más grandes de la antigüedad. En su mano derecha sostenía un cetro, y en su mano izquierda sostenía una estatua de Nike, la diosa de la victoria.
+</p>
+</div>
+
+<button class="accordion">La desaparición sin dejar rastro
+</button>
+<div class="panel">
+  <p>
+A pesar de su importancia y magnificencia, la Estatua de Zeus no pudo escapar al paso del tiempo y a los estragos de la historia. Después de siglos de adoración y reverencia, el santuario de Olimpia fue saqueado y destruido por los invasores romanos en el siglo II d.C. Se cree que la estatua fue llevada a Constantinopla, donde probablemente fue destruida en un incendio.
+Hoy en día, no queda ningún rastro físico de la Estatua de Zeus en Olimpia. Sin embargo, su legado perdura en la memoria y la admiración de aquellos que han oído hablar de su grandeza. Además, numerosas representaciones artísticas y descripciones escritas de la estatua nos permiten imaginar su esplendor y majestuosidad.
+</p>
+</div>
+        
+<button class="accordion">Importancia cultural </button>
+<div class="panel">
+  <p>El santuario de Olimpia que era el lugar de celebración de los antiguos Juegos Olímpicos, un evento deportivo y religioso de importancia fundamental de la cultura griega. En el corazón de este santuario se encontraba el Templo de Zeus. Fue aquí donde se erigió la Estatua de Zeus, como una representación física de su divinidad y poder.
+En la cultura griega, Zeus era considerado el rey de los dioses y el principal gobernante del Olimpo asi como padre de los dioses griegos. La estatua de Zeus en Olimpia representaba su poder y majestuosidad, y era venerada como un símbolo de la grandeza y la autoridad divina.
+Se cree que la estatua fue construida para honrar a Zeus y para adornar su templo en Olimpia. Además de ser un lugar de culto, el templo y la estatua también servían como un símbolo de la riqueza y el prestigio de la ciudad de Olimpia.
+la estatua también ha inspirado a numerosos artistas, escritores y pensadores a lo largo de los siglos. Su representación del poder divino y la majestuosidad ha sido objeto de admiración y estudio, y su influencia se extiende hasta nuestros días en el arte y la cultura occidental.
+La Estatua de Zeus en Olimpia fue mucho más que una simple obra de arte; era un símbolo de la devoción religiosa, la excelencia artística y la grandeza de la civilización griega. Aunque ya no se alza en el santuario de Olimpia, su legado perdura como un recordatorio de la capacidad del ser humano para crear belleza y asombro en el mundo que lo rodea.</p>
+</div>
+        
+        <script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+    </body>
+</html>

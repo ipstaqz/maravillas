@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>PRIMEROS PASOS CON BRACKETS</title>
+        <meta name="description" content="Una guía interactiva de primeros pasos para Brackets.">
+        <link rel="stylesheet" href="estlosMaravilla.css">
+        <style>
+        html {
+    background: #0000;
+    background-image: url(backgrounds-maravillas/Fondo2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 100vh;
+    background-attachment: fixed
+}
+        </style>
+    </head>
+    <div class="titulo"></div>
+        
+        <h1>La Gran Pirámide de Guiza</h1>
+        <p>
+            IMAGEN XD
+        </p>
+
+    <body>
+        
+        
+        
+<h2>Maravilla Antigua</h2>
+
+<button class="accordion">Introduccion</button>
+<div class="panel">
+  <p>La primera y la mas desconocida obra hecha por el hombre, demuestra el poderío de los reinos antiguos, hecha con una precisión y ubicación tan extrañamente importante, con ustedes la gran pirámide de Guiza. conocida como la Pirámide de Keops, es una de las siete maravillas del mundo antiguo y la única que aún se conserva en gran medida.</p>
+</div>
+
+<button class="accordion">Construccion</button>
+<div class="panel">
+  <p>Construida durante la Cuarta Dinastía del Antiguo Egipto, alrededor del 2560 a.C., como tumba para el faraón Keops (también conocido como Jufu).
+Considerada una maravilla debido a su impresionante tamaño y precisión arquitectónica. Durante más de 3,800 años, fue la estructura más alta del mundo. Su construcción con bloques de piedra caliza, que pesan en promedio 2.5 toneladas cada uno, sin el uso de herramientas modernas, es un testimonio del ingenio y la habilidad de los antiguos egipcios
+Se estima que su construcción se llevó a cabo utilizando enormes bloques de piedra caliza y granito. Originalmente, se cubría con un revestimiento de piedra caliza pulida, que se cree que habría hecho brillar la pirámide bajo el sol.
+La pirámide originalmente tenía una altura de aproximadamente 146.6 metros, aunque ahora se encuentra a unos 138.8 metros debido a la pérdida del revestimiento exterior. Sus lados tienen una longitud de alrededor de 230 metros, lo que la convierte en la más grande de las pirámides de Egipto. La precisión con la que se construyó la Gran Pirámide es asombrosa, con los lados orientados casi perfectamente hacia los puntos cardinales.
+</p>
+</div>
+
+<button class="accordion">EL misterio de la pirámide
+</button>
+<div class="panel">
+  <p>La construcción de las pirámides aún suscita debates entre los historiadores y arqueólogos. Se cree que se construyeron utilizando la mano de obra de miles de trabajadores egipcios, aunque la logística exacta y los métodos de construcción siguen siendo objeto de investigación y especulación. 
+A pesar de los esfuerzos de numerosos estudiosos, todavía hay muchas incógnitas en torno a la Gran Pirámide de Guiza. Una de las preguntas más intrigantes es cómo se construyó esta estructura masiva utilizando solo herramientas y tecnología disponibles en la antigüedad. Se han propuesto Varias teorías sugieren el uso de rampas y sistemas de poleas, mientras que otras consideran la posibilidad de que se hayan utilizado técnicas desconocidas debido al colosal tamaño que pose y el peso de un solo ladrillo de está construcción, hasta la intervención de tecnologías avanzadas o incluso extraterrestres, pero ninguna ha sido definitivamente probada. sea cual sea el caso no deja de impresionar 
+Otro enigma es el propósito exacto de la Gran Pirámide. Aunque generalmente se acepta que fue construida como una tumba para el faraón Keops, algunos investigadores sugieren que también podría haber tenido un propósito astronómico, religioso o simbólico más profundo, esto basado en sus múltiples cámaras aún desconocidas asi como su ubicación y alineación casi perfecta de los puntos cardinales.
+</p>
+</div>
+        
+<button class="accordion">Importancia Cultural
+</button>
+<div class="panel">
+  <p>Para los egipcios antiguos representaba la creencia en la vida después de la muerte y el poder divino del faraón. Se creía que el faraón, al morir, ascendía al cielo para unirse a los dioses. La pirámide, con sus cámaras internas y pasajes, estaba diseñada para proteger el cuerpo del faraón y proporcionarle los recursos necesarios para su vida eterna.
+Independientemente de sus misterios, la Gran Pirámide de Guiza sigue siendo un hito cultural y turístico de importancia mundial. Cada año, millones de personas de todo el mundo visitan este sitio fascinante para maravillarse ante su magnificencia y sumergirse en la rica historia del antiguo Egipto.
+La Gran Pirámide de Guiza es mucho más que una maravilla arquitectónica; es un símbolo perdurable de la habilidad y la creatividad de la civilización egipcia antigua. Aunque continúa desconcertándonos con sus misterios, su belleza y su monumentalidad continúan inspirando admiración en todos aquellos que tienen el privilegio de contemplarla.
+</p>
+</div>
+        
+        <script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+    </body>
+</html>

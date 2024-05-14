@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>PRIMEROS PASOS CON BRACKETS</title>
+        <meta name="description" content="Una guía interactiva de primeros pasos para Brackets.">
+        <link rel="stylesheet" href="estlosMaravilla.css">
+        <style>
+        html {
+    background: #0000;
+    background-image: url(backgrounds-maravillas/Fondo8.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 100vh;
+    background-attachment: fixed
+}
+        </style>
+    </head>
+    <div class="titulo">
+        </div>
+        
+        <h1>Faro de Alejandría</h1>
+
+        <p>
+            IMAGEN XD
+        </p>
+
+    <body>
+        
+        
+        
+<h2>Maravilla Antigua</h2>
+
+<button class="accordion">Introducción
+</button>
+<div class="panel">
+  <p>se alzaba majestuoso en la costa de la legendaria ciudad de Alejandría, en Egipto. Esta imponente estructura, también conocida como el Faro de Pharos, no solo era un faro que guiaba a los navegantes en el Mediterráneo, sino también un símbolo de la grandeza y la innovación de la civilización antigua.
+La construcción del faro se realizó para facilitar la navegación y el comercio en el puerto de Alejandría, uno de los más importantes del mundo antiguo. Además de servir como guía para los marineros, también funcionaba como un símbolo del poder y la riqueza de la dinastía ptolemaica.
+</p>
+</div>
+
+<button class="accordion">Construcción
+</button>
+<div class="panel">
+  <p>
+Fue encargado al arquitecto y astrónomo Sostrato de Cnido, quien concibió una estructura innovadora y ambiciosa para guiar a los navegantes en el mar. La construcción comenzó alrededor del año 290 a.C. y se completó aproximadamente en el año 280 a.C.
+El faro se erigía en una pequeña isla rocosa llamada Pharos, frente a la costa de Alejandría. Tenía una altura estimada de entre 120 y 135 metros, lo que lo convertía en una de las estructuras más altas de la antigüedad. Estaba construido con bloques de piedra y mármol, y se decía que su base estaba decorada con relieves y estatuas.
+</p>
+</div>
+
+<button class="accordion">La lenta extinción de su luz sobre los mares
+</button>
+<div class="panel">
+  <p>A pesar de su grandeza y su importancia, el Faro de Alejandría no pudo escapar al paso del tiempo y a los estragos de la historia. Después de siglos de uso, la estructura comenzó a deteriorarse debido a la erosión del mar y los terremotos, y finalmente se derrumbó en el siglo XIV d.C.
+Hoy en día, no queda ningún rastro físico del Faro de Alejandría en la isla de Pharos. Sin embargo, su legado perdura como un recordatorio de la grandeza y la innovación de la civilización antigua
+</p>
+</div>
+        
+<button class="accordion">Importancia cultural 
+</button>
+<div class="panel">
+  <p>Su principal función era guiar a los navegantes en el Mediterráneo, indicándoles la ubicación del puerto de Alejandría y advirtiéndoles de los peligros del mar.
+La estructura estaba equipada con un gran espejo de bronce en su parte superior, que reflejaba la luz del sol durante el día, y un fuego ardiente por la noche. Estos dispositivos emitían una luz brillante que se podía ver a gran distancia, permitiendo que los barcos navegaran con seguridad hacia el puerto de Alejandría, incluso en las condiciones más adversas.
+Este faro se considera una maravilla por su impresionante altura, y por su innovadora estructura, que incluía una cámara superior con una linterna que emitía luz para guiar a los barcos en la noche. Asi como un espejo reflector que tambien emitía luz en el día Representaba el avance tecnológico y la grandeza de la civilización egipcia en ese período. A si como una muestra de los dotes egipcios para levantar estructuras tan colosales y bien diseñadas como lo fue dicho farol.
+Su legado perdura como una de las maravillas arquitectónicas más impresionantes de la antigüedad y como un símbolo del ingenio humano y el deseo de explorar y conquistar nuevos horizontes
+</p>
+</div>
+        
+        <script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+    </body>
+</html>

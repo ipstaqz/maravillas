@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>PRIMEROS PASOS CON BRACKETS</title>
+        <meta name="description" content="Una guía interactiva de primeros pasos para Brackets.">
+        <link rel="stylesheet" href="estlosMaravilla.css">
+        <style>
+        html {
+    background: #0000;
+    background-image: url(backgrounds-maravillas/Fondo10.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 100vh;
+    background-attachment: fixed
+}
+        </style>
+    </head>
+    <div class="titulo">
+        </div>
+        
+        <h1>Machu Pichu</h1>
+        <p>
+            IMAGEN XD
+            
+            La primera en ver el amanecer, adoran a quien les brinda el día, una ciudad poderosa demostrando toda la fuerza y habilidad del imperio que la levanto, a tal punto de convertirse en su corazón. Con ustedes la imponente ciudad de Machu Pichu.
+        </p>
+
+    <body>
+        
+<h2>Maravilla Moderna</h2>
+
+<button class="accordion">Introducción</button>
+<div class="panel">
+  <p>En lo alto de los Andes peruanos, envuelta en la neblina matutina y rodeada de imponentes montañas, yace una maravilla arqueológica que ha cautivado la imaginación del mundo entero: Machu Picchu. Este antiguo enclave inca, ubicado en la región de Cusco, Perú, es mucho más que una simple ciudadela; es un testamento de la ingeniería, la espiritualidad y la maestría arquitectónica de la civilización incaica.</p>
+</div>
+
+<button class="accordion">Construcción</button>
+<div class="panel">
+  <p>Lo que hace que Machu Picchu sea tan impresionante es su diseño arquitectónico único y su integración armoniosa con el entorno natural. La ciudadela está compuesta por una serie de terrazas de piedra cuidadosamente construidas, que se extienden a lo largo de las laderas de las montañas. Estas terrazas servían como plataformas agrícolas y residenciales, y estaban conectadas por una intrincada red de caminos y escaleras.
+En el corazón de Machu Picchu se encuentran sus estructuras más emblemáticas, como el Templo del Sol, el Intihuatana (un observatorio solar), y la Piedra Sagrada. Estas estructuras están construidas con piedra caliza tallada con precisión, sin el uso de mortero, lo que demuestra el alto nivel de habilidad y conocimiento arquitectónico de los incas.
+</p>
+</div>
+
+<button class="accordion">Buscando cobre se encontró oro
+</button>
+<div class="panel">
+  <p>Fue construida por el emperador Pachacútec como una residencia real y un centro ceremonial en medio de la exuberante selva de los Andes. Sin embargo, su existencia pasó desapercibida para el mundo exterior durante siglos después de la caída del Imperio Inca en el siglo XVI.
+No fue hasta 1911 cuando el arqueólogo estadounidense Hiram Bingham redescubrió las ruinas de Machu Picchu, mientras buscaba la legendaria ciudad perdida de Vilcabamba. La noticia de su descubrimiento rápidamente se extendió por todo el mundo, y Machu Picchu se convirtió en un destino turístico de renombre internacional.
+</p>
+</div>
+        
+<button class="accordion">Importancia cultural </button>
+<div class="panel">
+  <p>Para los incas, Machu Picchu no era solo una ciudadela fortificada; era un lugar sagrado lleno de significado espiritual y cultural. Se cree que era un santuario dedicado al culto del Sol, la luna y otras deidades incas, y que era utilizado para ceremonias religiosas, rituales agrícolas y observaciones astronómicas.
+La alineación de las estructuras de Machu Picchu con los solsticios y equinoccios sugiere que los incas tenían un profundo conocimiento de la astronomía y el cosmos. Además, la ubicación remota de la ciudadela en lo alto de los Andes, rodeada de montañas y selva, la convertía en un refugio espiritual y un lugar de conexión con la naturaleza.
+Hoy en día, Machu Picchu es uno de los destinos turísticos más populares y visitados del mundo, atrayendo a millones de turistas cada año. Sin embargo, su popularidad también ha planteado desafíos en términos de conservación y preservación.
+Para proteger Machu Picchu de la erosión y el deterioro causados por la afluencia masiva de visitantes, se han implementado medidas de conservación y restricciones de acceso. Se limita el número de visitantes diarios, se prohíbe el ingreso a ciertas áreas sensibles, y se realizan trabajos de restauración y mantenimiento en las estructuras más vulnerables.
+</p>
+</div>
+        
+        <script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+    </body>
+</html>

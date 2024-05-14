@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>PRIMEROS PASOS CON BRACKETS</title>
+        <meta name="description" content="Una guía interactiva de primeros pasos para Brackets.">
+        <link rel="stylesheet" href="estlosMaravilla.css">
+        <style>
+        html {
+    background: #0000;
+    background-image: url(backgrounds-maravillas/Fondo6.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 100vh;
+    background-attachment: fixed
+}
+        </style>
+    </head>
+    <div class="titulo">
+        </div>
+        
+        <h1>Mausoleo de Halicarnaso</h1>
+        <p>
+            IMAGEN XD
+        </p>
+
+    <body>
+        
+        
+        
+<h2>Maravilla Antigua</h2>
+
+<button class="accordion">Introducción</button>
+<div class="panel">
+  <p>
+El Mausoleo de Halicarnaso, una de las Siete Maravillas del Mundo Antiguo, se alzaba majestuosamente en la antigua ciudad de Halicarnaso, en la costa suroeste de la actual Turquía. Esta impresionante estructura fue construida como un monumento funerario para Mausolo, el rey de Caria, y su esposa Artemisia II, y sirvió como un testimonio perdurable de la grandeza y el ingenio arquitectónico de la antigüedad. 
+Fue construido durante el siglo IV a.C., entre los años 353 y 350 a.C., bajo el reinado de Artemisia II, después de la muerte de su esposo Mausolo. El término "mausoleo" proviene precisamente de esta estructura, que se convirtió en el modelo arquitectónico para futuros monumentos funerarios de este tipo.
+</p>
+</div>
+
+<button class="accordion">Construcción
+</button>
+<div class="panel">
+  <p>La estructura fue diseñada por los arquitectos Satiro y Pirro, quienes combinaron elementos de la arquitectura griega, egipcia y asiria para crear una obra única y magnífica.
+El mausoleo se construyó sobre una base rectangular de aproximadamente 32 metros de ancho y 40 metros de largo, y tenía una altura de aproximadamente 45 metros. Estaba rodeado por una serie de columnas jónicas, que sostenían un techo piramidal escalonado adornado con estatuas y relieves esculpidos.
+En la parte superior del mausoleo se encontraba una escultura gigantesca de Mausolo y Artemisia en una carroza tirada por cuatro caballos, esculpida por los renombrados escultores Leocares, Briaxis, Timoteo y Escopas. Esta escultura era una de las características más impresionantes del mausoleo, y se dice que era visible desde varios kilómetros de distancia.
+</p>
+</div>
+
+<button class="accordion">Belleza de una breve duración
+</button>
+<div class="panel">
+  <p>Desafortunadamente, la gloria del Mausoleo de Halicarnaso fue efímera. Después de la muerte de Artemisia II, el mausoleo fue saqueado y destruido por varios invasores, incluidos los romanos y los cristianos. A lo largo de los siglos, sus ruinas fueron desmanteladas y reutilizadas para construir otras estructuras en la región.
+Hoy en día, solo quedan ruinas dispersas del Mausoleo de Halicarnaso en el sitio arqueológico de Bodrum, en Turquía. Sin embargo, su legado perdura como un recordatorio de la grandeza y la excelencia artística de la civilización antigua, y sigue siendo objeto de estudio y admiración para los arqueólogos, historiadores y amantes del arte de todo el mundo.
+</p>
+</div>
+        
+<button class="accordion">Importancia cultural 
+</button>
+<div class="panel">
+  <p>El Mausoleo de Halicarnaso era mucho más que un simple monumento funerario; era un testimonio de la grandeza y la gloria de la dinastía de Caria. Se convirtió en un centro de culto y veneración, donde los ciudadanos de Halicarnaso y más allá podían rendir homenaje a sus queridos gobernantes fallecidos.
+Además de su significado religioso y funerario, el mausoleo también era una obra de arte impresionante. Los relieves esculpidos en sus paredes representaban escenas de batallas, ceremonias religiosas y mitos griegos, y se consideraban algunas de las mejores obras de arte de la época.
+Aunque ya no se alza en todo su esplendor, el Mausoleo de Halicarnaso sigue siendo una de las más grandes maravillas arquitectónicas de la antigüedad. Su diseño innovador, su magnífica escultura y su significado histórico y cultural lo convierten en un testimonio perdurable de la capacidad del ser humano para crear belleza y grandeza en el mundo que lo rodea.
+Además, el mausoleo también ha inspirado a numerosos artistas, escritores y pensadores a lo largo de los siglos. Su imagen ha sido recreada en pinturas, esculturas y obras literarias, y su influencia se extiende hasta nuestros días en el arte y la arquitectura moderna. En última instancia, el Mausoleo de Halicarnaso sigue siendo un monumento emblemático de la grandeza y la excelencia artística de la civilización antigua, y su legado perdura como un recordatorio de la capacidad del ser humano para crear obras de arte eternas y perdurables.
+</p>
+</div>
+        
+        <script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+    </body>
+</html>
