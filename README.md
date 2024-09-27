@@ -7,4 +7,4 @@ Aqui encontraras el codigo fuente de una pagina acerca de las maravillas del mun
 Un proyecto de alumnos del BMR 400, pertenecientes al taller de programacion
 
 
-ipztaqz
+ipstaqz
